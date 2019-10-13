@@ -77,6 +77,7 @@ nav a:first-child {
     
   }
   
+  
   @keyframes slidein {
     from {
       margin-left: 100%;
@@ -173,4 +174,10 @@ nav a:first-child {
 .slick-prev:before,
 .slick-next:before {
     color:black;
+}
+.lContainer{
+  max-width: 960px;
+  width: 100%;
+  padding: 0px;
+  display:inline-block;
 }
